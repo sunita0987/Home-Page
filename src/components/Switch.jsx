@@ -2,15 +2,14 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { CARD_DATA } from "../utils/helper";
-
 const Card_Slider = () => {
   return (
     <>
       <div className="flex justify-center items-center py-10">
         <div className="w-full max-w-[1440px]">
              <div className=""></div>
-                  <h1 className=" flex justify-center items-center text-4xl  mb-10">Simple Steps to <span className="font-bold ">Switch</span> </h1>
-                  <p className="  flex justify-center items-center  text-gray-500 font-regular text-lg">
+                  <h1 className=" flex justify-center items-center text-4xl  mb-10 font-helvetica">Simple Steps to <span className="font-bold "> Switch </span> </h1>
+                  <p className="  flex justify-center items-center  text-gray-500 font-regular text-lg mb-5 font-helvetica">
                     Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                     eget consectetur mi. Vulputate sapien a a bibendum
                   </p> 
