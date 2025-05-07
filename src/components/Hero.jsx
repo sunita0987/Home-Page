@@ -1,7 +1,7 @@
 import React from 'react';
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-[url(src/assets/images/bg.png)] bg-cover bg-center text-white">
+    <div className="min-h-screen bg-[url(./assets/images/bg.png)] bg-cover bg-center text-white">
       <nav className="flex items-center justify-between px-6 py-4">
           <img src="src/assets/images/logo.png" alt="logo" className='ml-10'></img>
         <div className="hidden md:flex space-x-6 text-sm">

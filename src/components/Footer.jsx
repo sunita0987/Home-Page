@@ -2,7 +2,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className=" text-white ">
-      <div className="bg-[url(src/assets/images/Newsletter.png)] bg-cover bg-center text-center w-[1100px] h-[250px]  text-black ">
+      <div className="bg-[url(./assets/images/Newsletter.png)] bg-cover bg-center text-center w-[1100px] h-[250px]  text-black ">
         <h2 className="text-4xl font-semibold ">
           Join Our <span className="text-[#00171F] font-bold">Newsletter</span>
         </h2>
@@ -22,7 +22,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[url(src/assets/images/Footer.png)] bg-cover bg-center text-sm px-6 py-10 grid md:grid-cols-4 gap-8 text-gray-300 ">
+      <div className="bg-[url(./assets/images/Footer.png)] bg-cover bg-center text-sm px-6 py-10 grid md:grid-cols-4 gap-8 text-gray-300 ">
         <div>
           <img src="src/assets/images/logo.png" alt="footer-logo"></img>
           <p className="mt-2 max-w-sm text-white">
