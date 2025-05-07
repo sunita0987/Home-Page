@@ -34,7 +34,6 @@ const plans = [
 
 const UtilityComparisons = () => {
   const [openId, setOpenId] = useState(1);
-
   const toggle = (id) => {
     setOpenId(openId === id ? null : id);
   };

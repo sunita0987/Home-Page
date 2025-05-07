@@ -2,14 +2,11 @@ import React from "react";
 import { useState } from "react";
 import { faqs } from "../utils/faq";
 import { Plus, Minus } from "lucide-react";
-
 const FAQAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-
   const toggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   return (
     <section className="py-16 px-4 max-w-3xl mx-auto">
       <div className="text-center mb-10">

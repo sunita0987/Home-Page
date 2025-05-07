@@ -25,7 +25,7 @@ const features = [
   },
 ];
 
-const WhyChooseUs = () => {
+const Choose = () => {
   return (
     <div className="px-6 py-16 max-w-7xl mx-auto">
       <div className="text-center mb-12">
@@ -73,4 +73,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default Choose;
