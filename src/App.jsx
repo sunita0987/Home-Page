@@ -6,7 +6,9 @@ import Slider from './components/Slider'
 import Switch from './components/Switch'
 import Footer from './components/Footer'
 import Compare from './components/Compare'
-
+import Choose from './components/Choose'
+import TestimonialSlider from './components/TestmonialSlider'
+import Faq from './components/Faq'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +18,9 @@ function App() {
   <Slider/>
   <Switch/>
   <Compare/>
+  <Choose/>
+  <TestimonialSlider/>
+  <Faq/>
   <Footer/>
     </>
     )
