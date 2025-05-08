@@ -79,5 +79,4 @@ const UtilityComparisons = () => {
     </div>
   );
 };
-
 export default UtilityComparisons;

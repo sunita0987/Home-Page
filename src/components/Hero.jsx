@@ -9,26 +9,26 @@ const Hero = () => {
           className="ml-10"
         ></img>
         <div className="hidden md:flex space-x-6 text-sm">
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             About
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             How It Works
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             Services
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             Testimonials
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             Why Us
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="hover:underline hover:text-blue-600">
             FAQ
           </a>
         </div>
-        <button className="bg-white text-blue-800 px-4 py-2 rounded-4xl font-semibold text-sm cursor-pointer hover:bg-gray-100">
+        <button className="bg-white text-[#00171F] px-4 py-2 rounded-bl-xl  rounded-br-sm font-bold text-sm cursor-pointer hover:bg-blue-200">
           Get Started →
         </button>
       </nav>
@@ -50,9 +50,9 @@ const Hero = () => {
             <input
               type="text"
               placeholder="Start typing your address"
-              className="flex-grow px-4 py-2 text-black rounded-l-full focus:outline-none font-helvetica"
+              className="flex-grow px-4 py-2 text-black rounded-bl-2xl focus:outline-none font-helvetica"
             />
-            <button className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white px-6 py-2 rounded-4xl text-sm">
+            <button className="bg-blue-500 cursor-pointer hover:bg-blue-600 text-white px-6 py-2 rounded-bl-2xl rounded-br-2xl text-sm">
               Compare →
             </button>
           </div>

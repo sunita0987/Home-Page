@@ -21,7 +21,7 @@ function App() {
   <Choose/>
   <TestimonialSlider/>
   <Faq/>
-  <Footer/>
+  {/* <Footer/> */}
     </>
     )
 }
