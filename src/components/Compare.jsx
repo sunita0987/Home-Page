@@ -31,13 +31,11 @@ const plans = [
       "Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.",
   },
 ];
-
 const UtilityComparisons = () => {
   const [openId, setOpenId] = useState(1);
   const toggle = (id) => {
     setOpenId(openId === id ? null : id);
   };
-
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6 py-12 max-w-6xl mx-auto">
       <div>

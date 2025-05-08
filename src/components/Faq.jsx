@@ -11,7 +11,8 @@ const FAQAccordion = () => {
     <section className="py-16 px-4 max-w-3xl mx-auto">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-semibold text-[#00171F]">
-          Frequently Asked <span className="text-[#00171F] font-bold">Questions</span>
+          Frequently Asked{" "}
+          <span className="text-[#00171F] font-bold">Questions</span>
         </h2>
         <p className="text-gray-500 mt-2 max-w-md ">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
@@ -30,7 +31,7 @@ const FAQAccordion = () => {
               onClick={() => toggle(index)}
               className="w-full flex justify-between items-center px-5 py-4 text-left text-lg font-medium cursor-pointer"
             >
-              <span>{faq.question }</span>
+              <span>{faq.question}</span>
               {activeIndex === index ? (
                 <Minus className="w-5 h-5" />
               ) : (
@@ -38,7 +39,7 @@ const FAQAccordion = () => {
               )}
             </button>
             {activeIndex === index && (
-              <div className="px-5 pb-5 text-sm text-gray-100">
+              <div className="px-5 pb-5 text-sm text-gray-100 max-w-2xl">
                 {faq.answer}
               </div>
             )}

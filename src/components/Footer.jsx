@@ -22,7 +22,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[url(./assets/images/Footer.png)] bg-cover bg-center text-sm px-6 py-10 grid md:grid-cols-4 gap-8 text-gray-300 ">
+      <div className="bg-[url(./assets/images/Footer.png)] bg-cover bg-center text-sm px-6 py-10 grid md:grid-cols-4 gap-8 text-gray-300">
         <div>
           <img src="src/assets/images/logo.png" alt="footer-logo"></img>
           <p className="mt-2 max-w-sm text-white">
@@ -79,12 +79,10 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
       <div className=" text-center py-4 text-sm text-gray-400">
         © 2025 Bill Central. All Rights Reserved.
       </div>
     </footer>
   );
 };
-
 export default Footer;

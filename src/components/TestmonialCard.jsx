@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 const TestimonialCard = ({ name, username, image, review }) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-4 w-full max-w-sm">
@@ -11,7 +11,12 @@ const TestimonialCard = ({ name, username, image, review }) => {
       </div>
       <div className="flex mb-2">
         {[...Array(5)].map((_, i) => (
-          <svg key={i} className="w-4 h-4 text-green-500 mr-1" fill="currentColor" viewBox="0 0 20 20">
+          <svg
+            key={i}
+            className="w-4 h-4 text-green-500 mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
             <path d="M10 15l-5.878 3.09 1.123-6.545L.49 6.91l6.574-.955L10 0l2.936 5.955 6.574.955-4.755 4.635 1.123 6.545z" />
           </svg>
         ))}
