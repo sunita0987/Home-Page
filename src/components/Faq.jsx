@@ -49,5 +49,4 @@ const FAQAccordion = () => {
     </section>
   );
 };
-
 export default FAQAccordion;

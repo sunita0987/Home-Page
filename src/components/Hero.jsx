@@ -57,13 +57,14 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        {/* <div className="mb-1">
+        <div className="mb-1">
           <img
             src="src/assets/images/heroimage.png"
             alt="Woman researching utilities"
             className="rounded-xl"
           />
-        </div> */}
+          
+        </div>
       </div>
     </div>
   );

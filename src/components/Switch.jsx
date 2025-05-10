@@ -8,9 +8,9 @@ const Card_Slider = () => {
       <div className="flex justify-center items-center py-10">
         <div className="w-full max-w-[1440px]">
           <h1 className=" flex justify-center items-center text-4xl  mb-10 font-helvetica">
-            Simple Steps to <span className="font-bold "> Switch </span>{" "}
+            Simple Steps to {" "} <span className="font-bold "> Switch </span>{" "}
           </h1>
-          <p className="  flex justify-center items-center  text-gray-500 font-regular  w-[700px]  text-lg mb-5 font-helvetica">
+          <p className="  flex justify-center items-center text-gray-500  font-regular ml-20 w-[700px]  text-lg mb-5 font-helvetica">
             Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
             consectetur mi. Vulputate sapien a a bibendum
           </p>

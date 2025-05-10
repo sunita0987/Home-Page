@@ -30,7 +30,7 @@ const Choose = () => {
     <div className="px-6 py-16 max-w-7xl mx-auto">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-normal text-[#00171F]">
-          Why Choose Us For{" "}
+          Why Choose Us For {" "}
           <span className="text-[#00171F] font-bold">Utilities</span>
         </h2>
         <p className="mt-2 text-[#00171F] max-w-xl max-auto text-sm flex items-center justify-center">
